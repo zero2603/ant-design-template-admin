@@ -1,0 +1,29 @@
+.delete-image {
+  position: relative;
+  top: -48px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.delete-image svg {
+  filter: drop-shadow(3px 3px 3px #999);
+  transition: 0.3s;
+  transform: rotate(-0.2deg)
+}
+
+.delete-image svg:hover {
+  filter: drop-shadow(4px 4px 4px #999);
+  transform: rotate(-0.6deg);
+  cursor: pointer
+}
+
+.delete-image svg {
+  filter: drop-shadow(1px 1px 1px #999)
+}
+
+.img-job-detail {
+  height: 100px;
+  width: auto;
+  margin: 5px;
+  border: 1px solid gray;
+}

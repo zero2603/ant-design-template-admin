@@ -1,0 +1,409 @@
+#custom-header {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header-actions {
+    cursor: pointer;
+}
+
+.login-logo {
+    width: 100px;
+}
+
+.logo img {
+    height: 60px !important;
+}
+
+.header-icons {
+    color: #fff;
+    font-size: 20px;
+}
+
+.ant-layout-sider-trigger {
+    background: #e6f7ff !important;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.content-wrapper {
+    min-height: 80vh;
+}
+
+.login-card {
+    margin-top: 25px;
+    width: 30%;
+}
+
+.ios-badge {
+    display:inline-block;
+    overflow:hidden;
+    background:url(https://linkmaker.itunes.apple.com/vi-vn/badge-lrg.svg?releaseDate=2019-12-02&kind=iossoftware&bubble=ios_apps) no-repeat;
+    width:135px;
+    height:40px;
+    margin-left: 10px;
+}
+
+.android-badge img {
+    height:60px;
+}
+
+.ql-editor {
+    min-height: 250px;
+}
+
+.sidebar-icon {
+    font-size: 20px !important;
+}
+
+.item-action-btn {
+    cursor: pointer;
+}
+
+.item-action-btn:hover {
+    color: #188fff
+}
+
+.site-page-header {
+    padding-left: 0 !important
+}
+
+.homepage-card {
+    width: 100% !important;
+}
+
+.homepage-card .ant-card-cover img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover
+}
+
+.homepage-card .ant-card-body {
+    text-align: center
+}
+
+.notification-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.custom-col {
+    width: 100% !important;
+}
+
+.custom-radio {
+    display: block;
+    height: 30px;
+    line-height: 30px
+}
+
+#request-menu {
+    margin-left: -24px !important;
+    margin-right: -24px !important;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    background-color: #575f63;
+}
+
+#request-menu .ant-menu-item {
+    text-align: center !important;
+    min-width: 130px !important;
+    padding-top: 12px !important;
+    background-color: #575f63;
+}
+
+#request-menu .ant-menu-item-selected {
+    background-color: #fff !important
+}
+
+#request-menu .ant-menu-item-selected span {
+    color: #e47025 !important;
+}
+
+#request-menu .ant-menu-item span {
+    display: block !important;
+    word-break: break-all;
+    font-size: 12px;
+    line-height: 36px; 
+}
+
+#request-menu .ant-menu-item .anticon {
+    font-size: 40px !important;
+    margin-right: 0 !important;
+}
+
+/* .ant-form-item-label {
+    font-weight: bolder
+} */
+
+.am-notice-bar {
+    margin-left: -24px !important;
+    margin-right: -24px !important;
+}
+
+.ant-layout-footer {
+    padding-left: 0 !important
+}
+
+.module-cards {
+    min-height: 140px;
+    border-radius: 25px;
+    border: none !important;
+    color: #fff;
+    background-color: #575f63;
+}
+
+.module-cards .ant-card-body {
+    padding: 15px 20px 20px 25px !important;
+}
+
+.module-cards .anticon {
+    font-size: 40px !important;
+}
+
+.module-cards .view-more-icon {
+    font-size: initial !important;
+}
+
+.module-cards:hover {
+    background-color: #e47025 !important;
+}
+
+.text-none {
+    text-decoration: none !important
+}
+
+.product-card {
+    border-radius: 15px;
+}
+
+.product-card .ant-card-body {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.product-img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px !important;
+}
+
+.price {
+    font-weight: 700;
+    color: #e74c3c;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.product-img-detail {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.slide .product-img-detail {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: contain !important
+}
+
+.thumb .product-img-detail {
+    height: 80px !important;
+    object-fit: cover !important;
+}
+
+.carousel .slide {
+    background-color: #f0f2f5 !important;
+}
+
+.thumbs.animated {
+    padding: 0 !important;
+    text-align: center;
+}
+
+.product-statistic-card {
+    width: 19%;
+}
+
+.product-statistic-card  .ant-card-body {
+    padding: 24px 15px !important;
+}
+
+.img-modal {
+    width: unset !important;
+    max-width: 90%;
+    min-width: 520px;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-card {
+        margin-top: 0px !important;
+        width: 100% !important;
+    }
+
+    .homepage-card {
+        margin-top: 25px
+    }
+
+    #request-menu .ant-menu-item {
+        text-align: center !important;
+        max-width: 80px !important;
+        padding-top: 20px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .product-default-img {
+        display: none !important;
+    }
+
+    .slide .product-img-detail {
+        height: 200px !important;
+        width: 100% !important;
+        object-fit: cover;
+    }
+
+    .table-filter, .table-button {
+        margin-bottom: .5rem !important;
+    }
+
+    .product-statistic-card {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+} 
+
+.filter-icon {
+    float: right; 
+    margin-left: 10px; 
+    font-size: 20px;
+    cursor: pointer; 
+    line-height: 32px;
+}
+
+.widget-cards,
+.module-cards {
+    border-radius: 25px;
+    border: none !important;
+    color: #fff;
+}
+
+.widget-cards .ant-card-body {
+    padding: 20px 15px !important;
+    display: flex;
+}
+
+.card-blue {
+    background-color: #1890ff
+}
+
+.card-green {
+    background-color: #2ecc71
+}
+
+.card-red {
+    background-color: #e74c3c
+}
+
+.card-orange {
+    background-color: #f39c12
+}
+
+.card-yellow {
+    background-color: #f1c40f
+}
+
+.card-violet {
+    background-color: #9b59b6
+}
+
+.card-black {
+    background-color: #2c3e50
+}
+
+.widget-icon {
+    font-size: xx-large;
+    margin-right: 10px;
+}
+
+.home-widget-icon {
+    font-size: xx-large;
+}
+
+.widget-cards .ant-card-body .widget-big-text {
+    font-size: 35px;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+
+.widget-cards .ant-card-body .widget-default-text {
+    font-size: 25px;
+}
+
+.module-cards,
+.module-card-wrapper {
+    width: 100%;
+    cursor: pointer;
+}
+
+.module-cards {
+    height: 150px;
+}
+
+.module-cards h4 {
+    color: #fff;
+}
+
+.success-btn {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.success-btn:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.payment-config .ql-editor {
+    min-height: 100px !important;
+}
+
+.strike-text {
+    text-decoration: line-through;
+}
+
+.clear-button {
+    background-color: #ecf0f1;
+    border-color: #bdc3c7;
+}
+
+.clear-button:hover {
+    background-color: #bdc3c7;
+    border-color: #bdc3c7;
+    color: #fff;
+}
+
+.custom-ul {
+    padding-inline-start: 10px !important;
+}
+
+.ticket-response-input .ql-editor {
+    min-height: 100px !important;
+}
+
+.customer-support-note-modal {
+    width: unset !important;
+    max-width: 90%;
+    min-width: 520px;
+}
+
+.request-image {
+    cursor: pointer;
+    border: 2px #bdc3c7 solid;
+}
